@@ -1,0 +1,24 @@
+# input age
+age = int(input("Enter Age:"))
+
+# condition to check voting eligibility
+if age >= 18:
+    status = "eligible"
+else:
+    status = "not eligible"
+
+print("You are",status, "to vote.")
+
+if status == 'not eligible':
+    print("Sorry, come back when you are of legal voting age in your state!")
+
+# Register to vote
+
+if status == 'eligible':
+    print("Are you registered to vote?")
+    input = input()
+    input = input.lower()
+    if input == 'yes':
+            print("Great! Election Day is coming soon! Stand up for what you believe in and don't let anyone influence your vote!")
+    elif input == 'no':
+        print("Oh no! Register here! https://www.vote.org/register-to-vote%22")
