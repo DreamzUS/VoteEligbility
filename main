@@ -1,7 +1,5 @@
-# input age
 age = int(input("Enter Age:"))
 
-# condition to check voting eligibility
 if age >= 18:
     status = "eligible"
 else:
@@ -11,8 +9,6 @@ print("You are",status, "to vote.")
 
 if status == 'not eligible':
     print("Sorry, come back when you are of legal voting age in your state!")
-
-# Register to vote
 
 if status == 'eligible':
     print("Are you registered to vote?")
