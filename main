@@ -15,6 +15,6 @@ if status == 'eligible':
     input = input()
     input = input.lower()
     if input == 'yes':
-            print("Great! Election Day is coming soon! Stand up for what you believe in and don't let anyone influence your vote!")
+            print("Great! Election Day is coming soon! Make your voice heard!")
     elif input == 'no':
         print("Oh no! Register here! https://www.vote.org/register-to-vote%22")
