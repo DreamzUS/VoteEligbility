@@ -8,7 +8,7 @@ else:
 print("You are",status, "to vote.")
 
 if status == 'not eligible':
-    print("Sorry, come back when you are of legal voting age in your state!")
+    print("Please come back when you are of legal voting age in your state.")
 
 if status == 'eligible':
     print("Are you registered to vote?")
@@ -17,4 +17,4 @@ if status == 'eligible':
     if input == 'yes':
             print("Great! Election Day is coming soon! Make your voice heard!")
     elif input == 'no':
-        print("Oh no! Register here! https://www.vote.org/register-to-vote%22")
+        print("Oh no! You can register here in just a few minutes. Your vote is important! https://www.vote.org/register-to-vote%22")
